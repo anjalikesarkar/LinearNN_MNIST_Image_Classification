@@ -20,3 +20,8 @@ The `LinerNN_MNIST_Image_Classification` repo focuses on training a linear neura
 - This contains images that will be used for testing the trained model on unseen data.
 - You would typically load these images, preprocess them (e.g., resizing, normalizing), and then pass them through the trained model to get predictions.
 
+# Custome Dataset:
+- Images from google search
+- Ones search for images => Extensions(Titlebar of chrome)=> Manage Extension => Download All Images (if not exist download)
+  ## Reference:
+  https://youtu.be/jztwpsIzEGc
