@@ -5,7 +5,7 @@ The `LinerNN_MNIST_Image_Classification` repo focuses on training a linear neura
 # Jupyter Notebook:
 ## This is likely where the main workflow of your model training and evaluation takes place. It may contain the following sections:
 - Dataset: A section where you load and preprocess your dataset. This could involve reading from files (like images, CSVs, etc.), normalizing data, or augmenting it.
-- DataLoader: A PyTorch (or TensorFlow, depending on your framework) DataLoader to handle batching and shuffling of the dataset.
+- DataLoader: A PyTorch DataLoader to handle batching and shuffling of the dataset.
 - Model Architecture: Defines the neural network model. It could be a custom model or a pretrained one.
 - Forward Pass: This defines how the data flows through the model during training and inference.
 - Optimizer: A section where you define the optimization algorithm (like Adam, SGD, etc.) used to minimize the loss during training.
@@ -19,9 +19,3 @@ The `LinerNN_MNIST_Image_Classification` repo focuses on training a linear neura
 # Test Images Folder:
 - This contains images that will be used for testing the trained model on unseen data.
 - You would typically load these images, preprocess them (e.g., resizing, normalizing), and then pass them through the trained model to get predictions.
-
-# Custom Dataset:
-- Images from google search
-- Ones search for images => Extensions(Titlebar of chrome)=> Manage Extension => Download All Images (if not exist download)
-  ## Reference:
-  https://youtu.be/jztwpsIzEGc
